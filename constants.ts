@@ -4,7 +4,7 @@ export const SALES_NAME = "Risman";
 export const SALES_PHOTO_URL = 'https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/061a94016ea22bc80d2b04fcf9bdbad6~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=47fc25c9&x-expires=1754575200&x-signature=KbGG1mQI1%2BUUjwaKJm8KjjYL4Fc%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2';
 export const WHATSAPP_NUMBER = "6285156496822";
 export const WHATSAPP_NUMBER_DISPLAY = "0851-5649-6822";
-export const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(`Halo ${SALES_NAME}, saya tertarik dengan promo mobil Suzuki.`)}`;
+export const WHATSAPP_LINK = `whatsapp://send?phone=${WHATSAPP_NUMBER}&text=${encodeURIComponent(`Halo ${SALES_NAME}, saya tertarik dengan promo mobil Suzuki.`)}`;
 
 export const CAR_DATA: CarModel[] = [
    {
