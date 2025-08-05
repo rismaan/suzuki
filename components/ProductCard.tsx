@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { CarModel } from '../types';
 import { SALES_NAME, WHATSAPP_NUMBER } from '../constants';
@@ -19,7 +18,7 @@ const formatCurrency = (price: number) => {
 export const ProductCard: React.FC<ProductCardProps> = ({ car }) => {
   const createWhatsAppLink = (variantName: string) => {
     const message = `Halo ${SALES_NAME}, saya tertarik dengan promo ${car.name} ${variantName}. Mohon informasinya.`;
-    return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
+    return `whatsapp://send?phone=${WHATSAPP_NUMBER}&text=${encodeURIComponent(message)}`;
   };
 
   return (
